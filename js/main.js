@@ -303,6 +303,49 @@ $(".lets-talk-slider").owlCarousel({
 });
 
 
+$(".testimonial-carousel").owlCarousel({ 
+    margin: 0,
+    loop:true,
+    nav: false,
+    dots: true,                     
+    autoplay: true,
+    // animateOut: 'animate__slideInDown',
+    // animateIn: 'animate__fadeOutDown',
+    responsive:{
+        0:{
+            items:1
+        },
+        576:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:3
+        }
+    }    
+});
+
+
+// var swiper = new Swiper('.swiper-container', {
+//     direction: 'vertical',
+//     slidesPerView: 3,
+//     spaceBetween: 30,
+//     pagination: {
+//       el: '.swiper-pagination',
+//       clickable: true,
+//     },
+//   });
+
+
+
+
+
+
+
+
+
 
 
 
