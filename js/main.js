@@ -57,12 +57,12 @@ $(window).scroll(function(){
     if ( matchMedia( 'only screen and (min-width: 1200px)' ).matches ) 
     {
         if ($(window).scrollTop() >= 50 ) {
-            $('.ttm-stickable-header').addClass('fixed-header');
+            $('.ttm-header-wrap').addClass('fixed-header');
             $('.ttm-stickable-header').addClass('visible-title');
         }
         else {
 
-            $('.ttm-stickable-header').removeClass('fixed-header');
+            $('.ttm-header-wrap').removeClass('fixed-header');
             $('ttm-stickable-header').removeClass('visible-title');
             }
     }
